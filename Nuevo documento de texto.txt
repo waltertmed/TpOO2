@@ -1,0 +1,29 @@
+-Lectura meses pares
+-dia de emision de la factura:10
+
+-abmfactura:
++generar factura(medidor m, int mes, int anio):factura
++alta(factura):int
+
+-factura:
+-idFactura
+-cliente String
+-fecha LocalDate
+-nroMedidor
+-observaciones String
+-lstItem: itemFactura
++calcularTotal():double
+
+vencimiento 10 dias primer, 20 el segundo de la fecha de emision de la factura
+clonar objeto
+
+-itemFactura:
+-idItemFactura: int
+-detalle : String
+-precioUnitario : double
+-cantidad : int 
+-unidad : int
+
+-Lectura:
++calcularConsumo
+	
